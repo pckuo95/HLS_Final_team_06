@@ -2842,7 +2842,9 @@ extern "C"
       /* size of the image scaled up */
       MySize winSize = { myRound(winSize0.width*factor), myRound(winSize0.height*factor) };
       /* size of the image scaled down (from bigger to smaller) */
-      MySize sz = { ( IMAGE_WIDTH/factor ), ( IMAGE_HEIGHT/factor ) };
+	int imgW = IMAGE_WIDTH/factor;
+	int imgH = IMAGE_HEIGHT/factor;
+      MySize sz = { (imgW  ), ( imgH ) };
   
       height = sz.height;
       width  = sz.width;
