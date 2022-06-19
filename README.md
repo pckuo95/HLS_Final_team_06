@@ -1,2 +1,2 @@
 # HLS_Final_team_06
-Face detection (revised by rosetta)
+Face detection (revised by rosetta and Rauf-Kurbanov)
